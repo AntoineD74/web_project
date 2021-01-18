@@ -1,0 +1,564 @@
+
+
+
+/*****************************************************HEADER******************************************************/
+
+header
+{
+  width:100%;
+}
+
+#logo
+{
+  width: 52em;
+  height: 12em;
+  padding-left: 15em;
+}
+
+
+.banner
+{ 
+  background: linear-gradient(30deg, #87CEFA, 10%, white);
+
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  box-shadow:0 2px 5px black;
+  align-items: center;
+  position: absolute; /*fixed-top*/;
+  top: 0;
+  left:0;
+  width: 100%;
+  margin:0;
+  padding:0;
+  justify-content: space-around;
+  opacity: 0.8;
+  font-family: Dosis, sans-serif;
+}
+
+.banner h1
+{
+  position: relative;
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 12px; 
+  margin: 10px;
+  top: -0.4rem;
+  text-shadow:0px 0px 7px #FFFFFF;
+  opacity: 1;
+
+}
+
+.banner h1 span
+{
+  color: rgb(165,208,67);
+}
+
+nav
+{
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.banner nav ul
+{
+  padding:0;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100%;
+  border-collapse: separate;
+  margin:0,1rem;
+}
+
+.banner nav li
+{
+  display:block;
+  padding:1rem;
+  margin:1rem;
+  font-size:160%;
+}
+
+.banner nav li:hover
+{
+  text-decoration: underline;
+  font-family: Dosis, sans-serif;
+}
+
+.banner nav li a
+{
+  text-decoration: none;
+  color:rgb(62,33,35);
+  font-family: Dosis, sans-serif;
+
+}
+.line2 
+{
+  height: 2rem;
+  width: 1px;
+  background-color:black;
+  margin:2rem 0 2rem 0;
+}
+
+
+
+/*****************************************************BODY******************************************************/
+
+body
+{
+  background: radial-gradient(#D3D3D3, white);
+}
+
+/**********************************INDEX***********************************/
+
+.introtitle
+{
+   text-align:center;
+   font-size: 4em;
+   padding-top: 6em;
+}
+
+.introtext
+{
+  text-align:center;
+  font-size: 140%;
+  line-height: 200%;
+}
+
+
+#introimg 
+{
+  height: 75%;
+  width: 55%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+.introLinks
+{
+  text-decoration: none;
+  display:block;
+  text-align:center;
+  font-size: 1.8em;
+  width: 8em;
+  margin:0 auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color:#00008B;
+  color: white;
+  border-radius: 20px;
+
+  margin-top:1em;
+}
+
+.secondintro
+{
+  text-align:center;
+  font-size: 4em;
+  padding-top: 0.6em;
+}
+
+
+.secondtext
+{
+  text-align:center;
+  font-size: 140%;
+  line-height: 200%;
+}
+
+/**************************************LOGIN*********************************/
+
+
+/*******************form 1**********************/
+.form1
+{
+  line-height: 0.4em;
+  justify-content: center;
+  font-size: 1.2em;
+  color: #E6E6FA;
+  font-family:  "Copperplate", fantasy;
+}
+
+
+#haveAccount
+{
+  margin-top: 4em;
+  margin-left: 1em;
+
+  display: block;
+  font-size: 1.5em;
+
+  padding-left: 3em;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  background-color: rgb(192,192,192);
+  width: 18em;
+  height: auto;
+}
+
+
+#submit1
+{
+  position: relative;
+  left: 22em;
+  top: auto
+  bottom: 1em;
+}
+
+
+.errorMessage1
+{
+  padding-left: 4em;
+  font-size: 0.8em;
+  color: red;
+
+  padding-bottom: 1em;
+  padding-top: 0.1em;
+}
+
+
+/*******************form 2**********************/
+
+.form2
+{
+  line-height: 0.4em;
+  font-size: 1.1em;
+  justify-content: center;
+  color: #E6E6FA;
+  font-family:  "Copperplate", fantasy;
+}
+
+#noAccount
+{
+  margin-right: auto;
+  margin-top: 18em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+
+  display: block;
+  font-size: 1.5em;
+
+  padding-left: 2em;
+  padding-top: 1%;
+
+  background-color: rgb(192,192,192);
+  width: 18em;
+  height: auto;
+}
+
+
+#submit2
+{
+  position: relative;
+  left: 22em;
+  top: auto/*1.5em*/;
+  bottom: 1em;
+}
+
+
+.errorMessage
+{
+  padding-left: 4em;
+  font-size: 0.8em;
+  color: red;
+
+  padding-bottom: 1em;
+  padding-top: 0.1em;
+}
+
+
+.twoForms  /*alignement*/
+{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.twoForms :first-child 
+{
+    align-self: center;
+}
+
+
+
+/*******************form 2 second part**********************/
+
+#noAccount2
+{
+  margin-right: auto;
+  margin-top: 17em;
+  margin-left: 19em;
+  margin-bottom: 2em;
+
+  display: block;
+  font-size: 1.5em;
+
+  padding-left: 2em;
+  padding-top: 1%;
+
+  background-color: rgb(192,192,192);
+  width: 21em;
+  height: auto;
+}
+
+#submit3
+{
+  position: relative;
+  left: 27em;
+  top: auto;
+  bottom: 1em;
+}
+
+.checkbox
+{
+  margin-left: 2em;
+}
+
+
+/*******************disconnect button**********************/
+
+#disconnect
+{
+  margin-left: 45%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  text-align: center;
+  width: 10%;
+}
+
+.disconnect_button
+{
+  background-color: #FF8C00;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.disconnect_button:hover
+{
+  background-color: #8B0000;
+  font-size: 20px;
+}
+
+/******Messages******/
+
+.correct
+{
+  font-size: 2em;
+  text-align: center;
+  background-color: rgb(0,255,0, 0.5);
+  width: 100%;
+  height: auto;
+}
+
+.incorrect
+{
+  font-size: 2em;
+  text-align: center;
+  background-color: rgb(255,0,0, 0.5);
+  width: 100%;
+  height: auto;
+}
+
+#created
+{
+  font-size: 2em;
+  text-align: center;
+  background-color: rgb(0,255,0, 0.5);
+  width: 100%;
+  height: auto;
+}
+
+/**************************************SUBJECTS*********************************/
+
+ 
+.notConnectedSubjects
+{
+  padding-top: 14em;
+  padding-left: 14em;
+  font-size: 2em;
+}
+
+.my_subjects
+{
+  font-size: 0.8em;
+  text-decoration: none;
+  color: black;
+  font-family: Jazz LET, fantasy;
+  padding-bottom: 2em;
+}
+
+.my_subjects:hover
+{
+  text-decoration: none;
+  color: black;
+  font-family: Jazz LET, fantasy;
+  font-style: italic;
+}
+
+.userSubjects
+{
+  text-align: left;
+  font-size: 3em;
+  line-height: 1.4em;
+
+  margin-top: 9em;
+  margin-left: 8.5em;
+  margin-bottom: 2em;
+
+  padding-bottom: 4px;
+  padding-left: 0.4em;
+
+  border-radius: 25px;
+  width: 12em;
+  height: auto;
+
+}
+
+
+#userSubjects_names
+{
+  margin-top: 4%;
+  margin-left: 18%;
+}
+
+
+.toDiscover
+{
+  text-align: center;
+  font-size: 1.8em;
+
+  margin-top: 4em;
+  margin-left: 15em;
+  margin-bottom: 3.5em;
+
+  padding-top: 2px;
+  padding-bottom: 1em;
+
+  background: linear-gradient(60deg, #847577,40%, #87CEFA);
+  background-color: white;
+  border-radius: 25px;
+  width: 22em;
+  height: auto;
+}
+
+
+.toDiscover: h2
+{
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+  color: #01161E;
+}
+
+
+.addButton
+{
+  position: relative;
+  left: 6em;
+}
+
+.tableDiscover
+{
+  position: relative;
+  left: 4.5em;
+  text-align: left;
+}
+
+
+/**************************************COURSES*********************************/
+
+#continue_title
+{
+  font-family: Jazz LET, fantasy;
+  padding-top: 12.5em;
+  padding-left: 12em;
+}
+
+#continue_lessons
+{
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: auto;
+  
+}
+
+.one_subject
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 25px;
+  padding: 10px;
+
+  margin-top: 6px;
+  margin-left: 18em;
+  padding-left: 1em;
+  height:auto;
+  width: 22em;
+  box-shadow: 5px 5px 4px 5px #888888;
+  font-size: 1.5em;
+}
+
+.names_link
+{
+  display: inline-grid;
+}
+
+.subjects_link
+{
+  display: inline-grid;
+
+  grid-column-start: 3;
+  grid-column-end: 3;
+
+  padding-top: 1.2em;
+}
+
+.sign
+{
+  width: 1em;
+  height: auto;
+}
+
+/*****************AVAILABLE SUBJECTS*****************/
+
+#available
+{
+  font-family: Jazz LET, fantasy;
+  padding-top: 2em;
+  padding-left: 12em;
+}
+
+#all_courses
+{
+  font-size: 2.5em;
+  line-height: 1.2em;
+  margin-top: 1em;
+  margin-left: 11.5em;
+  margin-bottom: 2em;
+  padding-left: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 12em;
+
+  background-color: rgb(192,192,192);
+  border-radius: 20px;
+}
+
+.link_subject
+{
+  text-decoration: none;
+  color: black;
+}
+
+.link_subject:hover
+{
+  color: blue;
+  font-weight: bold;
+}
